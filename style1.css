@@ -1,5 +1,9 @@
 .button {
-    font-size: 800px;
+    font-size: 30px;
 margin-top: 500px;
+margin-left: 670px;
+cursor: pointer;
+color: rgb(0, 0, 0);
 
 }
+.button {background-color: #ce96aa;} /* Green */
