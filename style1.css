@@ -1,9 +1,24 @@
-.button {
-    font-size: 30px;
-margin-top: 500px;
-margin-left: 670px;
-cursor: pointer;
-color: rgb(0, 0, 0);
 
+
+.name1{
+margin-left: 600px;
+ margin-top: 600px;
+ font-size: 20px;
 }
-.button {background-color: #ce96aa;} /* Green */
+.name2{
+    font-size: 20px;
+}
+
+button {
+    background: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgb(84, 81, 81);
+    border-radius: 10px;
+    display: inline-block;
+}
