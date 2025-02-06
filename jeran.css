@@ -203,3 +203,26 @@
     animation: heartBeat;
     animation-duration: 20s;
 }
+.name1{
+    margin-left: 600px;
+     margin-top: 600px;
+     font-size: 20px;
+    }
+    .name2{
+        font-size: 20px;
+    }
+    
+    button {
+        background: white;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #lovePercentage {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        transform: rotate(45deg);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
