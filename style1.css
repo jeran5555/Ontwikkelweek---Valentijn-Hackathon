@@ -1,25 +1,233 @@
 
 
-.name1{
-margin-left: 600px;
- margin-top: 600px;
- font-size: 20px;
-}
-.name2{
-    font-size: 20px;
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
 }
 
-button {
-    background: white;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    cursor: pointer;
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #3E1E68;
+    overflow: hidden;
 }
-#lovePercentage {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    transform: rotate(45deg);
-    margin-left: 0px;
-    margin-top: 0px;
+
+.background span {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 20vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+
+.background span:nth-child(0) {
+    color: #583C87;
+    top: 67%;
+    left: 28%;
+    animation-duration: 16s;
+    animation-delay: -30s;
+    transform-origin: -13vw 0vh;
+    box-shadow: 40vmin 0 5.6182987537895155vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #FFACAC;
+    top: 95%;
+    left: 100%;
+    animation-duration: 47s;
+    animation-delay: -24s;
+    transform-origin: 22vw 8vh;
+    box-shadow: -40vmin 0 5.370462785441898vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #FFACAC;
+    top: 53%;
+    left: 71%;
+    animation-duration: 11s;
+    animation-delay: -8s;
+    transform-origin: 15vw -19vh;
+    box-shadow: 40vmin 0 5.983894726643781vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #FFACAC;
+    top: 54%;
+    left: 64%;
+    animation-duration: 20s;
+    animation-delay: -31s;
+    transform-origin: 0vw 12vh;
+    box-shadow: 40vmin 0 5.120760185544959vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #583C87;
+    top: 79%;
+    left: 51%;
+    animation-duration: 48s;
+    animation-delay: -18s;
+    transform-origin: 13vw -15vh;
+    box-shadow: -40vmin 0 5.484636299376363vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #E45A84;
+    top: 74%;
+    left: 24%;
+    animation-duration: 28s;
+    animation-delay: -32s;
+    transform-origin: -3vw -12vh;
+    box-shadow: 40vmin 0 5.849907701520016vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #FFACAC;
+    top: 89%;
+    left: 74%;
+    animation-duration: 19s;
+    animation-delay: -48s;
+    transform-origin: -24vw 15vh;
+    box-shadow: -40vmin 0 5.561807307649254vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #583C87;
+    top: 10%;
+    left: 33%;
+    animation-duration: 13s;
+    animation-delay: -43s;
+    transform-origin: -5vw 13vh;
+    box-shadow: -40vmin 0 5.703571089128042vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #E45A84;
+    top: 80%;
+    left: 76%;
+    animation-duration: 18s;
+    animation-delay: -9s;
+    transform-origin: 7vw 16vh;
+    box-shadow: -40vmin 0 5.778184969077794vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #583C87;
+    top: 9%;
+    left: 87%;
+    animation-duration: 52s;
+    animation-delay: -46s;
+    transform-origin: 10vw 16vh;
+    box-shadow: 40vmin 0 5.455935960202636vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #FFACAC;
+    top: 20%;
+    left: 18%;
+    animation-duration: 14s;
+    animation-delay: -26s;
+    transform-origin: -6vw 16vh;
+    box-shadow: -40vmin 0 5.14058656425474vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #FFACAC;
+    top: 57%;
+    left: 44%;
+    animation-duration: 47s;
+    animation-delay: -27s;
+    transform-origin: -6vw -14vh;
+    box-shadow: -40vmin 0 5.865107144504942vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #E45A84;
+    top: 65%;
+    left: 27%;
+    animation-duration: 36s;
+    animation-delay: -27s;
+    transform-origin: -20vw 23vh;
+    box-shadow: -40vmin 0 5.90006411195903vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #FFACAC;
+    top: 31%;
+    left: 77%;
+    animation-duration: 24s;
+    animation-delay: -14s;
+    transform-origin: -13vw 7vh;
+    box-shadow: -40vmin 0 5.749592081307474vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #583C87;
+    top: 5%;
+    left: 89%;
+    animation-duration: 36s;
+    animation-delay: -49s;
+    transform-origin: -18vw 23vh;
+    box-shadow: 40vmin 0 5.094354606736309vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #583C87;
+    top: 95%;
+    left: 22%;
+    animation-duration: 22s;
+    animation-delay: -39s;
+    transform-origin: 0vw 25vh;
+    box-shadow: 40vmin 0 5.901281880057189vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #FFACAC;
+    top: 27%;
+    left: 2%;
+    animation-duration: 36s;
+    animation-delay: -28s;
+    transform-origin: 1vw 2vh;
+    box-shadow: 40vmin 0 5.721530764204615vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #E45A84;
+    top: 12%;
+    left: 83%;
+    animation-duration: 22s;
+    animation-delay: -8s;
+    transform-origin: 2vw 2vh;
+    box-shadow: -40vmin 0 5.917428126358324vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #583C87;
+    top: 7%;
+    left: 99%;
+    animation-duration: 38s;
+    animation-delay: -36s;
+    transform-origin: 25vw -6vh;
+    box-shadow: -40vmin 0 5.822234444943863vmin currentColor;
+}
+#image{
+    
+    animation: heartBeat;
+    animation-duration: 20s;
+}
+.name1{
+    margin-left: 600px;
+     margin-top: 600px;
+     font-size: 20px;
+    }
+    .name2{
+        font-size: 20px;
+    }
+    
+    button {
+        background: white;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #lovePercentage {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        transform: rotate(45deg);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+    
