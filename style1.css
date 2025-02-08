@@ -201,10 +201,14 @@
     box-shadow: -40vmin 0 5.822234444943863vmin currentColor;
 }
 #image{
+    animation: wobble .50s infinite alternate;
     
-    animation: heartBeat;
-    animation-duration: 20s;
 }
+@keyframes wobble{
+	to { transform: scale(1.1); }
+}
+
+
 .name1{
     margin-left: 600px;
      margin-top: 600px;
@@ -221,12 +225,18 @@
         cursor: pointer;
     }
     #lovePercentage {
-        font-size: 20px;
+        font-size: 100px;
         font-weight: bold;
         color: white;
-        transform: rotate(45deg);
-        margin-left: 0px;
-        margin-top: 0px;
+       
+        margin-left: 100px;
+        margin-top: 530px;
+    }
+
+    .container{
+
+        margin-left: 520px;
+        margin-top: -200px;
     }
 
 
